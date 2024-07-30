@@ -1,0 +1,145 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto 10px;
+  width: 45%;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.img-container {
+  width: 50%;
+  height: 355px;
+}
+.img-container img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.display-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 25px;
+  justify-content: space-around;
+}
+.display-container h6 {
+  letter-spacing: 0.2em;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+}
+
+.display-container h2 {
+  font-size: 30px;
+  line-height: 1em;
+  color: hsl(212, 21%, 14%);
+  width: 90%;
+  font-family: Fraunces, sans-serif;
+}
+
+.display-container .sentence-div {
+  line-height: 1.5em;
+  width: 95%;
+  color: hsl(228, 12%, 48%);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  align-items: center;
+}
+
+footer p {
+  font-size: 28px;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+  font-family: Fraunces, sans-serif;
+}
+
+footer small {
+  text-decoration: line-through;
+  font-size: 12px;
+  color: hsl(228, 12%, 48%);
+}
+.button-class {
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  padding: 10px 0;
+  border-radius: 5px;
+  color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button-class:hover {
+  background-color: hsl(158, 36%, 23%);
+}
+
+.button-class img {
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 628px) {
+  .container {
+    flex-direction: column;
+    width: 335px;
+  }
+  .img-container {
+    width: 100%;
+    height: 265px;
+  }
+  .img-container img {
+    border-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* max-height: 300px; */
+    object-fit: cover;
+  }
+  .display-container {
+    width: 100%;
+    padding: 24px;
+  }
+  .display-container h2 {
+    font-size: 28px;
+    padding: 15px 0;
+  }
+  .display-container .sentence-div {
+    width: 100%;
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+  footer {
+    width: 60%;
+    padding-bottom: 15px;
+  }
+  .button-class {
+    padding: 15px 0;
+  }
+}
