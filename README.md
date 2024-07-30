@@ -35,7 +35,7 @@ Your users should be able to:
 ### Links
 
 - Live Site URL: [product-preview-card](https://66a840d1fdcd54b5cd9bf98a--capable-malasada-b9cb4e.netlify.app/)
-- Solution URL: [blog-preview-card solution](https://github.com/freshframcis/blog-preview-card)
+- Solution URL: [product-preview-card](https://github.com/freshframcis/blog-preview-card)
 
 ### Built with
 
